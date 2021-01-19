@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:title="Buscar"
+        />
+
+    <item
+        android:id="@+id/menu_options"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:rippleColor="@color/white"
+        app:showAsAction="always" />
+</menu>
